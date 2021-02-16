@@ -1,0 +1,2 @@
+[main 96a14ab] 1. Added routing to Movies and Categories components. 2. Added details of specific movie on click MORE
+ 5 files changed, 22 insertions(+), 7 deletions(-)
