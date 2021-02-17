@@ -571,6 +571,28 @@
       "title": "Forrest Gump",
       "imdbRating": "8.8",
       "id": 53
+    },
+    {
+      "title": "hjj",
+      "year": "1997",
+      "category": "Thriller",
+      "director": "Jerzy Waszyngton",
+      "plot": "Film o Jerzym Waszyngtonie i jego drodze dojścia do władzy.",
+      "country": "USA",
+      "imdbRating": "8.43",
+      "poster": "https://thumbs.dreamstime.com/b/zabawny-george-washington-pies-malowa%C5%82-portret-na-portrecie-z-pomalowaniem-olejowym-washingtona-pierwszy-prezydent-stan%C3%B3w-160873445.jpg",
+      "id": 54
+    },
+    {
+      "title": "hjj",
+      "year": "1997",
+      "category": "Thriller",
+      "director": "Jerzy Waszyngton",
+      "plot": "Film o Jerzym Waszyngtonie i jego drodze dojścia do władzy.",
+      "country": "USA",
+      "imdbRating": "8.43",
+      "poster": "https://thumbs.dreamstime.com/b/zabawny-george-washington-pies-malowa%C5%82-portret-na-portrecie-z-pomalowaniem-olejowym-washingtona-pierwszy-prezydent-stan%C3%B3w-160873445.jpg",
+      "id": 55
     }
   ],
   "categories": [
@@ -628,4 +650,3 @@
     "1950"
   ]
 }
-

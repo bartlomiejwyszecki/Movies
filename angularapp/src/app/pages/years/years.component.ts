@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpService } from '../../services/http.service';
 import { Observable } from 'rxjs';
-import { HttpService } from 'src/app/services/http.service';
-import { map } from 'rxjs/operators';
 
 @Component({
   selector: 'app-years',
@@ -9,16 +8,11 @@ import { map } from 'rxjs/operators';
   styleUrls: ['./years.component.css']
 })
 export class YearsComponent implements OnInit {
-  years: Observable<string[]>;
-
+  years: Observable<string[]>
   constructor(private http: HttpService) { }
 
   ngOnInit(): void {
-    this.years = this.http.getYears().pipe(map((years) => {
-      years.sort((a, b) => {
-          return a < b ? -1 : 1;
-       });
-      return years;
-      }));
+    this.years = this.http.getYears();
   }
+
 }

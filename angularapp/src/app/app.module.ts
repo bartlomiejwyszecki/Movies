@@ -12,7 +12,10 @@ import { CategoriesComponent } from './pages/categories/categories.component';
 import { MoviesInCategoryComponent } from './pages/categories/movies-in-category/movies-in-category.component';
 import { AppRoutingModule } from './app-routing.module';
 import { YearsComponent } from './pages/years/years.component';
-import { MoviesInYearsComponent } from './pages/years/movies-in-years/movies-in-years.component';
+import { MovieInYearComponent } from './pages/years/movie-in-year/movie-in-year.component';
+import { HttpTestComponent } from './pages/http-test/http-test.component';
+import { AddMovieComponent } from './pages/add-movie/add-movie.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -24,9 +27,11 @@ import { MoviesInYearsComponent } from './pages/years/movies-in-years/movies-in-
     MoviesInCategoryComponent,
     MovieCoverComponent,
     YearsComponent,
-    MoviesInYearsComponent,
+    MovieInYearComponent,
+    HttpTestComponent,
+    AddMovieComponent,
   ],
-  imports: [BrowserModule, HttpClientModule, AppRoutingModule],
+  imports: [BrowserModule, HttpClientModule, AppRoutingModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })

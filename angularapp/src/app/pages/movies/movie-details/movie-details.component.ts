@@ -15,10 +15,11 @@ export class MovieDetailsComponent implements OnInit {
   movieDetails: Observable<Movie>;
 
   constructor(
-    private http: HttpService, 
+    private http: HttpService,
     private route: ActivatedRoute,
     private router: Router,
-    private location: Location) { }
+    private location: Location
+  ) {}
 
   ngOnInit() {
     this.movieDetails = this.route.paramMap.pipe(
@@ -27,8 +28,7 @@ export class MovieDetailsComponent implements OnInit {
   }
 
   goToMovies() {
-    //console.log(Router);
-    //this.router.navigate(['/movies']);
+    // this.router.navigate(['/movies']);
     this.location.back();
   }
 }

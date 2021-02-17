@@ -1,6 +1,8 @@
-<div class="gird">
-    <a class="btn large orange lighten-1"
-       *ngFor="let year of years | async"
-       [routerLink]="['/year', year]"
-       >{{ year }}</a>
+<div class="grid">
+  <a
+    class="btn-large grey darken-1"
+    *ngFor="let year of years | async"
+    [routerLink]="['/year', year]"
+  >{{ year }}</a
+  >
 </div>

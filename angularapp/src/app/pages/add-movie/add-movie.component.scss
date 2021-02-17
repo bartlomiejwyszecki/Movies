@@ -1,0 +1,10 @@
+.ifTitle {
+    display: none;
+}
+
+.ng-invalid.ng-touched:not(form) {
+    border-bottom: 3px solid #c62828;
+    .ifTitle {
+        display: relative;
+    }
+}

@@ -1,12 +1,14 @@
 .grid {
   padding: 50px;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column;
   justify-content: center;
   max-width: 700px;
   margin: 0 auto;
 }
 
-a {
+button {
+  font-size: 22px;
   margin: 5px;
+  padding: 5px;
 }
